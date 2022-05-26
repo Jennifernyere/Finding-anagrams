@@ -12,7 +12,8 @@ def find_anagrams(str1, str2):
     else:
         return False
 
-str1 = "rasp"
-str2 = "spar"
+str1 = input('First word: ')
+str2 = input('Second word: ')
+
 print(find_anagrams(str1, str2))
 
